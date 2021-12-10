@@ -35,20 +35,20 @@ theme:
     #light mode
         - media: "(prefers-color-scheme: light)"
           scheme: default
-          primary: teal
-          accent: white
+          primary: green 
+          accent: green
           toggle:
-            icon: material/toggle-switch-off-outline
+            icon: material/weather-night  
             name: Switch to dark mode
 
 
     #dark mode
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
-          primary: red
-          accent: indigo
+          primary: blue grey
+          accent: green
           toggle:
-            icon: material/toggle-switch
+            icon: material/weather-sunny 
             name: Switch to light mode
 
 
@@ -65,8 +65,8 @@ nav:
   - Assignments:
       - 1. Principles and Practices: 
           - Individual Assignment: 1Ind.md
-      - 2. Project Management: 
-          - Individual Assignment: 2Ind.md
+#     - 2. Project Management: 
+#         - Individual Assignment: 2Ind.md
 #     - 3. Computer Aided Design:
 #         - Group Assignment: 3Group.md
 #         - Individual Assignment: 3Ind.md
