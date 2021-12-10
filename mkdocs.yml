@@ -1,10 +1,10 @@
-site_name: Eliana Rodrigues Martins - Fab Academy 2021
+site_name: Luis Henrique Miranda dos Santos - Fab Academy 2021
 
-repo_name: 'rmeliana/FabAcademy'
-repo_url: 'https://github.com/rmeliana/FabAcademy'
-site_description: 'My project documentation following Fab Academy instructions'
-site_author: 'ElianaRM'
-site_url: 'https://rmeliana.github.io/FabAcademy/'
+repo_name: 'riquemrd/FabAcademy'
+repo_url: 'https://github.com/riquemrd/FabAcademy'
+site_description: '2021 FabAcademy Project Documentation'
+site_author: 'riquemrd'
+site_url: 'https://riquemrd.github.io/FabAcademy/'
 copyright: 'Creative Commons Attribution Non Commercial'
 
 
@@ -56,25 +56,68 @@ theme:
 # extras
 extra_css:
     - stylesheets/extra.css
-    - stylesheets/gallery.min.css 
-    - stylesheets/gallery.theme.css
 
 nav:
-    - Home: index.md
-    - About:
-        - About me: about.md
-        - Fab Academy Student Agreement: Agreement.md
-    - Assignments:
-        - '1. Principles and Pratices': '1Principles and Practices/1Principles and Practices.md'
-        - '2. Project Management': '2Project Management/2Project Management.md'
-        - '3. Computer Aided Design': '3Computer Aided Design/3Computer Aided Design.md'
-        - '4. Computer Controlled Cutting': '4Computer Controlled Cutting/4Computer Controlled Cutting.md'
-        - '5. Electronics Production': '5Electronics Production/5Electronics Production.md'
-        - '6. Scanning and Printing': '6Scanning and Printing/6Scanning and Printing.md'
-        - '7. Electronics Design': '7Electronics Design/7Electronics Design.md'
-
-
-
+  - Home: index.md
+  - About:
+      - About me: about.md
+      - Fab Academy Student Agreement: Agreement.md
+  - Assignments:
+      - 1. Principles and Practices: 
+          - Individual Assignment: 1Ind.md
+      - 2. Project Management: 
+          - Individual Assignment: 2Ind.md
+#     - 3. Computer Aided Design:
+#         - Group Assignment: 3Group.md
+#         - Individual Assignment: 3Ind.md
+      - 4. Computer Controlled Cutting:
+          - Group Assignment: 4Group.md
+#         - Individual Assignment: 4Ind.md
+      - 5. Electronics Production :
+          - Group Assignment: 5Group.md
+#         - Individual Assignment: 5Ind.md
+#     - 6. 3D Scanning and Printing :
+#         - Group Assignment: 6Group.md
+#         - Individual Assignment: 6Ind.md
+#     - 7. Electronics Design :
+#         - Group Assignment: 7Group.md
+#         - Individual Assignment: 7Ind.md
+#     - 8. Computer Controlled Machining :
+#         - Group Assignment: 8Group.md
+#         - Individual Assignment: 8Ind.md
+#     - 9. Embedded Programming :
+#         - Group Assignment: 9Group.md
+#         - Individual Assignment: 9Ind.md
+#     - 10. Mechanical Design, Machine Design :
+#         - Group Assignment: 10Group.md
+#         - Individual Assignment: 10Ind.md
+#     - 11. Input Devices :
+#         - Group Assignment: 11Group.md
+#         - Individual Assignment: 11Ind.md
+#     - 12. Moulding and Casting :
+#         - Group Assignment: 12Group.md
+#         - Individual Assignment: 12Ind.md
+#     - 13. Output Devices :
+#         - Group Assignment: 13Group.md
+#         - Individual Assignment: 13Ind.md
+#     - 14. Embedded Networking and Communications :
+#         - Group Assignment: 14Group.md
+#         - Individual Assignment: 14Ind.md
+#     - 15. Interface and Application Programming :
+#         - Group Assignment: 15Group.md
+#         - Individual Assignment: 15Ind.md
+#     - 16. Wildcard Week :
+#         - Group Assignment: 16Group.md
+#         - Individual Assignment: 16Ind.md
+#     - 17. Applications and Implications :
+#         - Group Assignment: 17Group.md
+#         - Individual Assignment: 17Ind.md
+#     - 18. Invention, Intellectual Property and Business Models :
+#         - Group Assignment: 18Group.md
+#         - Individual Assignment: 18Ind.md
+#     - 19. Project Development :
+#         - Group Assignment: 19Group.md
+#         - Individual Assignment: 19Ind.md
 
 
 markdown_extensions:
@@ -93,5 +136,4 @@ markdown_extensions:
         emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
-    - git-revision-date
     - search
