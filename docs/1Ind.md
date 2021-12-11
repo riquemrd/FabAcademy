@@ -11,7 +11,7 @@ In this first week we are supposed to start to think about our final project and
 My idea is to create an automated room at my apartment and use an Alexa from Amazon to control all the commands.
 Also I want to create my own scripts to automate some functions like creating lighting modes like theater mode, ability to control my lights and electronics from my phone or an app when I'm outside my house.
 
-### Phisical Implementation
+### Physical Implementation
 
 The steps needed to make this possible are as follows:
 
@@ -26,9 +26,9 @@ The steps needed to make this possible are as follows:
 
 ### Digital Implementation
 
-- Install [Hass.io](https://www.home-assistant.io/installation/) to a RaspberryPi(for testing I'm going to use a virtual machine, like [Virtual Box](https://www.virtualbox.org/))
+- Install [Hass.io](https://www.home-assistant.io/installation/) to a Raspberry Pi(for testing I'm going to use a virtual machine, like [Virtual Box](https://www.virtualbox.org/))
 
-- Install [HomeAssist Container](https://www.home-assistant.io/installation/raspberrypi#install-home-assistant-container) and [Node-Red](https://nodered.org/)
+- Install [Home Assist Container](https://www.home-assistant.io/installation/raspberrypi#install-home-assistant-container) and [Node-Red](https://nodered.org/)
 
 ![](imgs/1/virtualbox.jpg)
 
