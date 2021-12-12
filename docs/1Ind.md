@@ -41,7 +41,7 @@ This is the room that I'll be doing the automation's
 <center>
 <video controls width="385">
 
-    <source src="/docs/files/1/room.mp4">
+    <source src="files/1/room.mp4">
 
 </video>
 </center>
@@ -67,4 +67,12 @@ This is the main screen of the Home Assist and it functions as a visual dashboar
 
 ![](imgs/1/homeassist.jpg)
 
-To to  wv
+## Node Red
+
+![](imgs/1/nodered.png){: .center}
+
+Using Node Red I'm able to create custom interconnections between different sensors and applications, like, if a sensor sees it is dark inside and the motion sensor detects movement in the house it can keep the lights on in the room. You can also listen for Wi-fi connections in a specific room and act accordingly.
+
+Bellow there is an example of how is the workflow.
+
+![](imgs/1/nodered2.png){: .center}
