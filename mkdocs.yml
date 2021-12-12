@@ -55,7 +55,7 @@ theme:
 
 # extras
 extra_css:
-    - stylesheets/extra.css
+    - docs/css/extra.css
 
 nav:
   - Home: index.md
@@ -65,10 +65,10 @@ nav:
   - Assignments:
       - 1. Principles and Practices: 
           - Individual Assignment: 1Ind.md
-#     - 2. Project Management: 
-#         - Individual Assignment: 2Ind.md
-#     - 3. Computer Aided Design:
-#         - Group Assignment: 3Group.md
+      - 2. Project Management: 
+          - Individual Assignment: 2Ind.md
+      - 3. Computer Aided Design:
+          - Group Assignment: 3Group.md
 #         - Individual Assignment: 3Ind.md
       - 4. Computer Controlled Cutting:
           - Group Assignment: 4Group.md

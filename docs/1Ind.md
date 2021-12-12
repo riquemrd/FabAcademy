@@ -30,8 +30,41 @@ The steps needed to make this possible are as follows:
 
 - Install [Home Assist Container](https://www.home-assistant.io/installation/raspberrypi#install-home-assistant-container) and [Node-Red](https://nodered.org/)
 
-![](imgs/1/virtualbox.jpg)
+
 
 ## Wiring
 
-![](imgs/1/wiring.jpg)
+This is the room that I'll be doing the automation's
+
+
+
+<center>
+<video controls width="385">
+
+    <source src="/docs/files/1/room.mp4">
+
+</video>
+</center>
+ Back to top
+
+
+![](imgs/1/wiring.jpg){:.left}
+![](imgs/1/wiring2.jpg){:.right}
+
+## Installation of the Home Assist System
+
+To make the installation I followed the instructions of the video bellow:
+
+<iframe width="1904" height="779" src="https://www.youtube.com/embed/BgD1rHd65sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This is the configuration I used in my Virtual Box to install all Home Assist systems
+
+![](imgs/1/virtualbox.jpg)
+
+## Home Assist Dashboard
+
+This is the main screen of the Home Assist and it functions as a visual dashboard and from there I'm able to do some basic controls using some pre-programmed functions
+
+![](imgs/1/homeassist.jpg)
+
+To to  wv
